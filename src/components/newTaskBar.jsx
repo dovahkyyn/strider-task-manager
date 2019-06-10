@@ -27,7 +27,8 @@ class NewTaskBar extends Component {
             className="new-task-input"
             placeholder="O que precisa ser feito?"
             onChange={this.handlerTaskTitleChange}
-            maxlength="120"
+            maxLength="120"
+            autoComplete="off"
             required
           />
         </form>

@@ -40,8 +40,9 @@ body {
   background-color: white;
   border-radius: 5px;
   width: 90%;
+  max-width: 1000px;
   text-align: left;
-  margin: 30px;
+  margin: 30px 0px;
   padding: 10px;
 }
 
@@ -86,7 +87,7 @@ body {
 .new-task-input {
   font-family: "Roboto Condensed", sans-serif;
   height: 20px;
-  width: 95%;
+  width: 90%;
   font-size: 15px;
   border: none;
 }
@@ -98,8 +99,11 @@ button:focus {
 
 .task-list-header {
   position: relative;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   width: 51%;
+  max-width: 600px;
+  min-width: 450px;
   background-color: #c4c7d1;
   border-radius: 10px;
   padding: 5px;
@@ -170,8 +174,11 @@ button:focus {
 
 .task-list-body {
   border-radius: 0px 0px 10px 10px;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   width: 50%;
+  max-width: 580px;
+  min-width: 430px;
   box-sizing: border-box;
   padding: 5px;
   text-align: left;
@@ -266,7 +273,7 @@ button:focus {
 }
 
 .task-item-shown-container {
-  height: 170px;
+  max-height: 170px;
   opacity: 1;
   padding: 15px 20px;
   transition: all 0.3s ease;
@@ -287,6 +294,7 @@ button:focus {
   display: block;
   padding: 0px;
   transform: rotate(180deg);
+  cursor: s-resize;
 }
 
 .task-item-show-button:after {
@@ -300,4 +308,12 @@ button:focus {
 
 .task-item-image {
   width: 100%;
+}
+
+.empty-category {
+  margin: 10px 0 0 0;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  color: #999;
 }

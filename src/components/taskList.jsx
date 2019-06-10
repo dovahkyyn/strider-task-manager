@@ -30,17 +30,19 @@ class TaskList extends Component {
   };
 
   getTasks = () => {
+    let result = [];
     switch (this.state.activeTab) {
       case 1:
-        return this.props.tasks.map(task => (
+        result = this.props.tasks.map(task => (
           <Task
             key={task.id}
             task={task}
             onModifyTask={this.props.onModifyTask}
           />
         ));
+        break;
       case 2:
-        return this.props.tasks
+        result = this.props.tasks
           .filter(task => task.status == 0)
           .map(task => (
             <Task
@@ -49,8 +51,10 @@ class TaskList extends Component {
               onModifyTask={this.props.onModifyTask}
             />
           ));
+
+        break;
       case 3:
-        return this.props.tasks
+        result = this.props.tasks
           .filter(task => task.status == 1)
           .map(task => (
             <Task
@@ -59,9 +63,16 @@ class TaskList extends Component {
               onModifyTask={this.props.onModifyTask}
             />
           ));
+        break;
       default:
         break;
     }
+
+    return result.length > 0 ? (
+      result
+    ) : (
+      <p className="empty-category">Você não tem tarefas nesta categoria</p>
+    );
   };
 
   render() {
