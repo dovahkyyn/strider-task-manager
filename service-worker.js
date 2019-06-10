@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/strider-task-manager/precache-manifest.db9d93bd9a13070ebdee51a630cf9564.js"
+  "/strider-task-manager/precache-manifest.e0ac1ef7fd5d466a91990b57e162659e.js"
 );
 
 self.addEventListener('message', (event) => {

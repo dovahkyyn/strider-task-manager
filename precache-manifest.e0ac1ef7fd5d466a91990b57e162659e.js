@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a86ebc0f5e1033ab30e32016311e9d3",
+    "revision": "c5ab95b7ad39bfaa8c7e6fbbff68077d",
     "url": "/strider-task-manager/index.html"
   },
   {
-    "revision": "01f8610073f917b2d7b2",
-    "url": "/strider-task-manager/static/css/main.19e2ed2c.chunk.css"
+    "revision": "f8c7d387939ed3038a45",
+    "url": "/strider-task-manager/static/css/main.bdb79dfb.chunk.css"
   },
   {
     "revision": "22e275892326126c8875",
     "url": "/strider-task-manager/static/js/2.ecbd5526.chunk.js"
   },
   {
-    "revision": "01f8610073f917b2d7b2",
+    "revision": "f8c7d387939ed3038a45",
     "url": "/strider-task-manager/static/js/main.d0a0e36d.chunk.js"
   },
   {

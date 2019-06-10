@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/strider-task-manager/static/css/main.19e2ed2c.chunk.css",
+    "main.css": "/strider-task-manager/static/css/main.bdb79dfb.chunk.css",
     "main.js": "/strider-task-manager/static/js/main.d0a0e36d.chunk.js",
     "main.js.map": "/strider-task-manager/static/js/main.d0a0e36d.chunk.js.map",
     "runtime~main.js": "/strider-task-manager/static/js/runtime~main.0489809b.js",
@@ -8,9 +8,9 @@
     "static/js/2.ecbd5526.chunk.js": "/strider-task-manager/static/js/2.ecbd5526.chunk.js",
     "static/js/2.ecbd5526.chunk.js.map": "/strider-task-manager/static/js/2.ecbd5526.chunk.js.map",
     "index.html": "/strider-task-manager/index.html",
-    "precache-manifest.db9d93bd9a13070ebdee51a630cf9564.js": "/strider-task-manager/precache-manifest.db9d93bd9a13070ebdee51a630cf9564.js",
+    "precache-manifest.e0ac1ef7fd5d466a91990b57e162659e.js": "/strider-task-manager/precache-manifest.e0ac1ef7fd5d466a91990b57e162659e.js",
     "service-worker.js": "/strider-task-manager/service-worker.js",
-    "static/css/main.19e2ed2c.chunk.css.map": "/strider-task-manager/static/css/main.19e2ed2c.chunk.css.map",
+    "static/css/main.bdb79dfb.chunk.css.map": "/strider-task-manager/static/css/main.bdb79dfb.chunk.css.map",
     "static/media/index.css": "/strider-task-manager/static/media/background.d7fdebec.jpg",
     "static/media/logo.svg": "/strider-task-manager/static/media/logo.19740d60.svg",
     "static/media/placeholder.png": "/strider-task-manager/static/media/placeholder.8dfc684e.png"
